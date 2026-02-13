@@ -3,7 +3,14 @@ import { Text, View} from "react-native";
 
 export default function Index() {
   const x = 21;
-  console.log("typeof x:", typeof x);
+  function checkX() {
+    if (typeof x === "number") {
+      console.log("x is a number");
+    } else {
+      console.log("x is not a number");
+    }
+  }
+  checkX();
 
   return (
     <View style={styles.container}>
