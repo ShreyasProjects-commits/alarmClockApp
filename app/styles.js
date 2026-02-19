@@ -18,6 +18,7 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "white",
   },
+
   text1: {
     fontSize: 40,
     fontWeight: "600",
