@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
     backgroundColor: "black",
   },
   container2: {
-    flex: 1,
+    flex: 2,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "white",
